@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- MENU BAR -->
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./Products/Products.html">Products</a>
+        <a href="./Cart/Cart.html">Cart</a>
+        <a href="./Contact/Contact.html">Contact</a>
+    </nav>
+
+    <!-- ABOUT -->
+    <header>
+        <h1>TechZone Store</h1>
+        <p>Your favorite place for gadgets and accessories.</p>
+        <form>
+            <input type="text" name="search">
+            <button>Search</button>
+        </form>
+    </header>
+    <hr>
+    <main>
+        <!-- HERO SECTION -->
+        <section>
+            <h2>Big Sale Up To 50% Off</h2>
+            <p>
+                Khám phá các sản phẩm công nghệ mới nhất với mức giá ưu đãi.
+            </p>
+            <img src="" alt="Hình sale"><br>
+            <button>Shop Now</button>
+            <hr>
+        </section>
+
+        <!-- PRODUCTS SECTION -->
+        <section>
+            <h2>Featured Products</h2>
+            <div class="products-card">
+                <div>
+                    <p>
+                        <b>Product 1</b> <br>
+                        Gaming Mouse
+                    </p>
+                    <img src="./Products/img/Gaming-mouse.jpg" width="250" alt="mouse.jpg">
+                    <p>
+                        Giá: $35 <br>
+                        Mô tả: High precision gaming mouse with RGB lighting.
+                    </p>
+                </div>
+                <div>
+                    <button>Add to Cart</button><br>
+                    <a href="">View Details</a>
+                </div>
+            </div>
+            <div class="products-card">
+                <div>
+                    <p>
+                        <b>Product 2</b> <br>
+                        Mechanical Keyboard
+                    </p>
+                    <img src="./Products/img/mechanical-keyboard.jpg" width="250" alt="keyboard.jpg">
+                    <p>
+                        Giá: $89 <br>
+                        Mô tả: Compact mechanical keyboard for gaming and work.
+                    </p>
+                </div>
+                <div>
+                    <button>Add to Cart</button><br>
+                    <a href="">View Details</a>
+                </div>
+            </div>
+            <div class="products-card">
+                <div>
+                    <p>
+                        <b>Product 3</b> <br>
+                        Wireless Headphones
+                    </p>
+                    <img src="./Products/img/Wireless-Headphones.jfif" width="250" alt="headphones.jpg">
+                    <p>
+                        Giá: $120 <br>
+                        Mô tả: Noise-cancelling wireless headphones.
+                    </p>
+                </div>
+                <div>
+                    <button>Add to Cart</button><br>
+                    <a href="">View Details</a>
+                </div>
+            </div>
+            <div class="products-card">
+                <div>
+                    <p>
+                        <b>Product 4</b> <br>
+                        4K Monitor
+                    </p>
+                    <img src="./Products/img/4K-Monitor.jpg" width="250" alt="monitor.jpg">
+                    <p>
+                        Giá: $299 <br>
+                        Mô tả: Ultra HD monitor for professional work and gaming.
+                    </p>
+                </div>
+                <div>
+                    <button>Add to Cart</button><br>
+                    <a href="">View Details</a>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+        <!-- CART SECTION -->
+        <section>
+            <h2>Shopping Cart</h2>
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Gaming Mouse</td>
+                    <td>1</td>
+                    <td>$35</td>
+                </tr>
+                <tr>
+                    <td>Mechanical Keyboard</td>
+                    <td>2</td>
+                    <td>$178</td>
+                </tr>
+                <tr>
+                    <td>4K Monitor</td>
+                    <td>1</td>
+                    <td>$299</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+
+        <!-- CHECKOUT SECTION (FORM) -->
+        <section>
+            <h2>Checkout</h2>
+            <form>
+                <label>
+                    Full Name:
+                    <input type="text" name="fullname">
+                </label><br>
+                <label>
+                    Email:
+                    <input type="email" name="email">
+                </label><br>
+                <label>
+                    Address:
+                    <input type="text" name="address">
+                </label><br>
+                <label>
+                    Payment Method:
+                    <select name="select">
+                        <option>Credit Card</option>
+                        <option>Paypal</option>
+                        <option>Bank Transfer</option>
+                    </select>
+                </label><br>
+                <textarea rows="5" cols="300" name="notes" placeholder="Notes"></textarea>
+                <Button>Place Order</Button>
+            </form>
+        </section>
+        <hr>
+
+        <!-- CONTACT SECTION -->
+        <section>
+            <h2>Contact</h2>
+            <p>
+                Hotline: 0909 888 777 <br>
+                Email: support@techzone.com
+            </p>
+            <form>
+                <Label>
+                    Name:
+                    <input type="text" name="name">
+                </Label><br>
+                <Label>
+                    Email:
+                    <input type="email" name="email">
+                </Label>
+                <textarea rows="5" cols="200" name="message" placeholder="Message"></textarea>
+                <button>Send</button>
+            </form><br>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>© 2026 TechZone Store <br>
+            Follow us on social media <br>
+            Links: <br>
+            <a href="">Facebook</a><br>
+            <a href="">Instagram</a><br>
+            <a href="">Github</a>
+        </p>
+    </footer>
+</body>
+
+</html>
